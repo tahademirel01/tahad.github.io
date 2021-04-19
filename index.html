@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+<!--deneme-->
+		<!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>MYSIS Uzaktan Okuma	</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+	
+		<link rel="stylesheet" href="https://icons.getbootstrap.com">
+     
+        <link rel="stylesheet" href="assets/css/style.css">
+     <!---  <link rel="stylesheet" href="assets/css/media-queries.css"> -->
+    </head>
+    <body>
+
+         	<!-- Sidebar -->
+			<nav class="sidebar">
+				
+				<!-- close sidebar menu -->
+				<div class="dismiss">
+					<i class="fas fa-arrow-left"></i>
+				</div>
+				
+				<div class="logo">
+					<h3><a href="index.html">MYSIS</a></h3>
+				</div>
+				
+				<ul class="list-unstyled menu-elements">
+					<li class="active">
+						<a class="scroll-link" href="#top-content"><i class="fas fa-home"></i>Anasayfa</a>
+					</li>
+					
+				
+							
+						
+					<!--ilk menü-->
+					<li>
+							<a href="#Raporlar" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" role="button" aria-controls="Raporlar">
+								<i class="far fa-folder-open"></i>Raporlar
+							</a>
+							<ul class="collapse list-unstyled" id="Raporlar">
+						
+								<li>
+									<a href="#SayaçRaporları" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" role="button" aria-controls="SayaçRaporları">
+										<i class="far fa-file"></i>Sayaç Raporları
+									</a>
+									<ul class="collapse list-unstyled" id="SayaçRaporları">
+										<li>
+											<a class="scroll-link" href="#section-4"><i class="fas fa-clock"></i>Sayaç Okuma Günlük Tüketim Raporları</a>
+										</li>
+										<li>
+											<a class="scroll-link" href="#section-4"><i class="fas fa-signal"></i>Sayaç Okuma Endeks Raporu</a>
+										</li>
+										
+										
+										<!--2 menü-->
+										<li>
+											<a href="#EndeksBilgileri" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" role="button" aria-controls="EndeksBilgileri">
+												<i class="fas fa-signal"></i>Endeks Bilgileri
+											</a>
+											<ul class="collapse list-unstyled" id="EndeksBilgileri">
+												<li>
+													<a class="scroll-link" href="#section-4"><i class="fas fa-signal"></i>Son Endeksler</a>
+												</li>
+												<li>
+													<a class="scroll-link" href="#section-4"><i class="fas fa-signal"></i>Günlük Endeksler</a>
+												</li>
+												<li>
+													<a class="scroll-link" href="#section-4"><i class="fas fa-signal"></i>Tüm Endeksler</a>
+												</li>
+                                                <li>
+													<a class="scroll-link" href="#section-4"><i class="fas fa-calendar-alt"></i>Ay Sonu Endeksleri</a>
+												</li> 
+												<li>
+													<a class="scroll-link" href="#section-4"><i class="fas fa-calendar-alt"></i>Ay Sonu Endeksleri</a>
+												</li>
+											</ul>
+
+									<!--3 menü-->
+											<li>
+											<a href="#Analizler" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" role="button" aria-controls="Analizler">
+												<i class="fas fa-chart-bar"></i>Analizler
+											</a>
+											<ul class="collapse list-unstyled" id="Analizler">
+												<li>
+													<a class="scroll-link" href="#section-4"><i class="fas fa-file-signature"></i>Reaktif Oran</a>
+												</li>
+											</ul>
+										
+
+
+                                 	<!--4 menü-->
+										<a href="#HataBilgileri" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" role="button" aria-controls="HataBilgileri">
+											<i class="fas fa-exclamation"></i>Hata Bilgileri
+										</a>
+										<ul class="collapse list-unstyled" id="HataBilgileri">
+											<li>
+												<a class="scroll-link" href="#section-4"><i class="fas fa-exclamation-triangle"></i>Gereilim-Akım Hataları</a>
+											</li>
+											<li>
+												<a class="scroll-link" href="#section-4"><i class="fas fa-lock-open"></i>Klemens Kapağı Uyarıları</a>
+											</li>
+											<li>
+												<a class="scroll-link" href="#section-4"><i class="fas fa-list-ol"></i>Hata-Uyarı Sayıları</a>
+											</li>
+											<li>
+												<a class="scroll-link" href="#section-4"><i class="fas fa-battery-quarter"></i>Pil-Gövde Uyarıları</a>
+											</li> 
+												</ul>
+
+										
+
+										<a href="#YükProfili" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" role="button" aria-controls="YükProfili">
+											<i class="fas fa-truck-loading"></i>Yük Profili-OSS
+										</a>
+										<ul class="collapse list-unstyled" id="YükProfili">
+											<li>
+												<a class="scroll-link" href="#section-4"><i class="far fa-file"></i>OSF Formatı</a>
+											</li>
+											<li>
+												<a class="scroll-link" href="#section-4"><i class="fas fa-clipboard"></i>Yük Profili Kayıtları</a>
+											</li>
+											<li>
+												<a class="scroll-link" href="#section-4"><i class="far fa-file-alt"></i>OSF Formatı Çoklu</a>
+											</li>
+										</ul>
+										<li>
+											<a class="scroll-link" href="#section-4"><i class="fas fa-paste"></i>Akım-Gerilim Bilgileri</a>
+										</li>
+									       </ul>
+									
+                            <!--5 menü-->
+
+							<a href="#RöleAnalizörR" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" role="button" aria-controls="RöleAnalizörR">
+								<i class="far fa-file"></i>Röle Analizör Raporları
+							</a>
+							<ul class="collapse list-unstyled" id="RöleAnalizörR">
+								<li>
+									<a class="scroll-link" href="#section-4"><i class="fas fa-paste"></i>Kompanzasyon Günlük Tüketim Raporları</a>
+								</li>
+								<li>
+									<a class="scroll-link" href="#section-4"><i class="fas fa-paste"></i>Genel Reaktif Kapasitif Raporu</a>
+								</li>
+								<li>
+									<a class="scroll-link" href="#section-4"><i class="fas fa-plug"></i>Akım-Gereilim Değerleri</a>
+								</li>
+								<li>
+									<a class="scroll-link" href="#section-4"><i class="fas fa-charging-station"></i>Elektriksel Güç Raporları</a>
+								</li> 
+								<li>
+									<a class="scroll-link" href="#section-4"><i class="fas fa-file-powerpoint"></i>Anlık Toplam Güçler</a>
+								</li>
+								<li>
+									<a class="scroll-link" href="#section-4"><i class="fas fa-bong"></i>Faz-Faz Tüketimler</a>
+								</li>
+									</ul>
+
+
+
+
+
+							
+							<li>
+								<a class="scroll-link" href="#section-4"><i class="fas fa-clock"></i>Cihaz Bağlanma Kopma Saatleri</a>
+							</li>
+							<li>
+								<a class="scroll-link" href="#section-4"><i class="fas fa-clock"></i>Röle Ve Sayaç Okuma Dakikaları</a>
+							</li>
+						</ul>
+					</li>
+	                </a>
+					<li>
+						<a class="scroll-link" href="#section-1"><i class="far fa-file"></i>Bilgilerim</a>
+					</li>
+					<li>
+						<a class="scroll-link" href="#section-1"><i class="fas fa-sitemap"></i>Site Haritası</a>
+					</li>
+					<li>
+						<a class="scroll-link" href="#section-1"><i class="fas fa-user"></i>Kullanıcı</a>
+					</li>
+					<li>
+						<a class="scroll-link" href="#section-1"><i class="fa fa-info-circle"></i>Yardım</a>
+					</li>
+					<li>
+						<a class="scroll-link" href="#section-1"><i class="fas fa-phone"></i>İletişim</a>
+					</li>
+					<li>
+						<a class="scroll-link" href="#section-2"><i class="fas fa-signal"></i>Endeks</a>
+					</li>
+					<li>
+						<a class="scroll-link" href="#section-5"><i class="fas fa-times-circle"></i>Çıkış</a>
+					</li>
+					
+				  </a>
+				</div>
+				
+				<div class="dark-light-buttons">
+					<a class="btn btn-primary btn-customized-4 btn-customized-dark" href="#" role="button">Dark</a>
+					<a class="btn btn-primary btn-customized-4 btn-customized-light" href="#" role="button">Light</a>
+				</div>
+			
+			</nav>
+			<!-- End sidebar -->
+			
+			<!-- Dark overlay -->
+    		<div class="overlay"></div>
+
+			
+				<!-- open sidebar menu -->
+				<a class="btn btn-primary btn-customized open-menu" href="#" role="button">
+                    <i class="fas fa-align-left"></i> <span>Menu</span>
+                </a>
+			
+		       
+
+        <!-- Javascript -->
+		<script src="assets/js/jquery-3.3.1.min.js"></script>
+		<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.waypoints.min.js"></script>
+        <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+
+    </body>
+
+</html>
